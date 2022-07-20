@@ -3,6 +3,7 @@
 
 /* Body Style */
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -76,11 +77,38 @@ main{
     grid-row-gap: 24px;
    }
 .LiveMatchBlog{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
     background-color: #161616;
     width: 312px;
     height: 312px;
     grid-row: 1/9;
     border-radius: 10px;
+}
+
+.LiveMatchButton{
+    font-size: 20px;
+    font-weight: 500;
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    margin-top: 30px;
+   
+}
+
+.LiveBlog{
+    background-color: #DD0000;
+}
+
+.LiveMatchBlog a{
+    text-decoration: none;
+    color: black;
+}
+
+.LiveMatchBlog a:visited{
+    color: red;
 }
 
 .BlogInfo{
@@ -105,6 +133,8 @@ main{
     background-color:rgba(255, 71, 71, 0.677);
 }
 
+
+
 .BlogTitle{
     font-size: 18px;
 }
@@ -117,4 +147,34 @@ main{
 
 .fa-comment-dots{
     margin-left: 30px;
+}
+
+/* Footer */
+footer{
+    background-color: #161616;;
+    height: 444px;
+    
+}
+
+.FooterTitle{
+    padding-top: 130px;
+    text-align: center;
+     color: white;
+     font-size: 40px;
+     font-weight: 600;
+}
+
+hr{
+    margin-top: 50px;
+    width: 1320px;
+}
+
+.Footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 50px 351px;
 }
