@@ -1,7 +1,7 @@
 /* GoogleFont */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* Body Style */
+/* Common Style or utilitise */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -152,7 +152,6 @@ main{
 /* Footer */
 footer{
     background-color: #161616;;
-    height: 444px;
     
 }
 
@@ -166,17 +165,19 @@ footer{
 
 hr{
     margin-top: 50px;
-    width: 1320px;
+    width: 90%;
 }
 
 .Footer{
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 16px;
-    margin: 0 351px;
+    margin: 50px 351px;
+
+   
 }
 
 .SocialLink{
@@ -219,4 +220,98 @@ hr{
 
 .LiveMatchInfo{
     text-align: center;
+}
+
+
+/* Media Queries */
+
+/* Mobile Devices */
+
+@media screen and (max-width:688px) {
+
+    /* Banner Style */
+    .TopBanner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 0;
+        margin-top: 0;
+    }
+
+    .Banner img{
+        width: 65%;
+     }
+
+     .Banner{
+        text-align: center;
+     }
+
+    .BannerTitle{
+        font-size: 40px;
+        
+    }
+
+    .BannerInfo{
+        text-align: center;
+    }
+
+    .B1{
+        margin-left: 0;
+    }
+
+    .BannerButton{
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: #EAECEE ;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    /* Blog Styles */
+
+    .Blogs{
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 24px;
+       }
+
+       .LiveMatchBlog{
+        background: none;
+       }
+
+
+       /* Footer Styles */
+       
+       hr{
+        width: 335px;
+       }
+
+
+       .Footer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+        margin: 0 0;
+    }
+    
+    .SocialLink{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    
+
+
 }
