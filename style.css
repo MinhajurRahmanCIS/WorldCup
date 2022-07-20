@@ -149,6 +149,11 @@ main{
     margin-left: 30px;
 }
 
+/* View Button Visibility  */
+.ViewAll{
+    display: none;
+}
+
 /* Footer */
 footer{
     background-color: #161616;;
@@ -310,8 +315,82 @@ hr{
         font-size: 30px;
         margin-top: 30px;
     }
+}
+
+@media screen and (min-width:689px) and (max-width: 992px) {
+
     
-    
+/* Banner Style */
 
 
+    .TopBanner{
+        background-color:#161616;
+        height: 398px;
+        width: 734px;
+        border-radius: 30px;
+    }
+
+    .B1{
+        width: 100%;
+    }
+
+    .BannerTitle{
+        font-size: 30px;
+    }
+
+    .BannerInfo{
+        font-size: 10px;
+    }
+
+    .BannerButton{
+        font-size: 10px;
+    }
+    .BannerButton:hover{
+        font-size: 10px;
+    }
+    .Banner img{
+    width: 67%;
+    }
+
+    /* Blog Style */
+    .Blogs{
+        margin-top: 130px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+       }
+       .LiveMatchBlog{
+        grid-row: 1/1;
+    }
+
+    .Side{
+        grid-column: 1/1;
+    }
+
+    /* Footer  */
+    .Footer{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: none;
+        align-items: center;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .ViewButton{
+    border: none;
+    background-color: #DD0000;
+    font-size: 20px;
+    margin-top: 30px;
+    height: 47px;
+    width: 131px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    .ViewAll{
+        display: flex;
+    }
 }
