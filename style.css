@@ -1,0 +1,120 @@
+/* GoogleFont */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Body Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Banner Style */
+
+
+.TopBanner{
+    display: flex;
+    margin-top: 50px;
+    background-color:#161616;
+    height: 646px;
+    width: 1321px;
+    border-radius: 30px;
+}
+
+.B1{
+    margin-left: 60px; 
+}
+
+.BannerTitle{
+    color: white;
+    font-size: 70px;
+    font-weight: 700px;
+}
+
+.BannerInfo{
+    color: white;
+    font-size: 16px;
+}
+
+.BannerButton{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #EAECEE ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.BannerButton:hover{
+    font-size: 30px;
+    color:  white;
+    background-color:tomato;
+}
+.Banner img{
+   width: 65%;
+}
+
+/* Blog Style */
+
+.Blog{
+ border: 1px solid rgba(157, 157, 157, 0.539);
+ width: 312px;
+ height: 362px;
+ border-radius: 10px;
+}
+
+.Blogs{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+   }
+.LiveMatchBlog{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    grid-row: 1/9;
+    border-radius: 10px;
+}
+
+.BlogInfo{
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.BlogButton{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    height: 32px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.BlogButton:hover{
+    
+    font-size: 20px;
+    color:  white;
+    background-color:rgba(255, 71, 71, 0.677);
+}
+
+.BlogTitle{
+    font-size: 18px;
+}
+.BlogSummary{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #161616;
+}
+
+.fa-comment-dots{
+    margin-left: 30px;
+}
