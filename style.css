@@ -176,5 +176,47 @@ hr{
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    margin: 50px 351px;
+    margin: 0 351px;
+}
+
+.SocialLink{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.Icon{
+    color: white;
+    margin-left: 20px;
+}
+
+.Icon a{
+   text-decoration: none;
+}
+
+
+/* LiveMath.html page Styles */
+
+.LiveMatch{
+ height: 242px; 
+}
+
+.LiveMatchCover{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+}
+
+.VS{
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.LiveMatchInfo{
+    text-align: center;
 }
